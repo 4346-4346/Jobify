@@ -1,0 +1,77 @@
+header {
+    background-color: seagreen;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    transition: all 300ms ease;
+}
+
+body {
+    background-color: beige;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding: 0px 50px;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+    width: 500px;
+    padding: 50px;
+    background-color: whitesmoke;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+.login-form {
+    background-color:beige;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+
+main {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #326f34;
+}

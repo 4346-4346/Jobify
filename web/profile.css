@@ -1,0 +1,142 @@
+header {
+    background-color: seagreen;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    transition: all 300ms ease;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: beige;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    transition: all 300ms ease;
+}
+
+nav li {
+    margin-right: 20px;
+    transition: all 300ms ease;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 300ms ease;
+}
+
+h1 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: honeydew;
+    font-family: Arial, sans-serif;
+    border-style: hidden;
+    border-radius: 25% 10%;
+    padding: 0px 50px;
+    margin: 0;
+}
+
+main {
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height: 100%;
+    width: auto;
+}
+
+form {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: whitesmoke;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+textarea {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+input[type="file"] {
+    margin-top: 10px;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+@media only screen and (max-width: 600px) {
+    form {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="tel"],
+    textarea {
+        padding: 8px;
+        margin-bottom: 15px;
+        width: 50%;
+    }
+
+    button[type="submit"] {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+}
+
+footer {
+  background-color: seagreen;
+  margin-top: auto;
+}

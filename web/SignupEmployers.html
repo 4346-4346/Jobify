@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employers Signup-Jobify</title>
+    <link rel="stylesheet" href="SignupEmployers.css">
+</head>
+
+<body>
+    <header>
+<!--        <nav>
+            <ul>
+                <li><a href="Jobify-home.html">Home</a></li>
+            </ul>
+        </nav>-->
+        <div>
+            <h1><img src="images.jpg" height="50" width="70">Jobify</h1>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h2>Create an Account for Employers</h2>
+            <form class="signup-form" action="employerssignupservlet" method="post">
+                <div class="signup">
+                    <label for="name">Full name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+                </div>
+                <div class="signup">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required><br><br>
+                </div>
+                <div class="signup">
+                    <label for="password">Confirm Password:</label>
+                    <input type="password" id="password" name="confirmpassword" required><br><br>
+                </div>
+                <div class="signup">
+                    <label for="company_name">Company Name:</label>
+                    <input type="text" id="companyname" name="company_name" required><br><br>
+                </div>
+                <div class="signup">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                </div>
+                <div class="signup">
+                    <label for="phone">Mobile Number:</label>
+                    <input type="tel" id="phone" name="phone" required><br><br>
+                </div>
+                <div class="signup">
+                    <label for="industry">Industry:</label>
+                    <select id="industry" name="industry">
+                        <option value="IT">IT</option>
+                        <option value="Finance">Finance</option>
+                        <option value="Retail">Retail</option>
+                        <option value="Healthcare">Healthcare</option>
+                        <option value="other">other</option>
+                    </select><br><br>
+                </div>
+                <div class="signup">
+                    <input type="submit" value="Create Account">
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p style="color: white">&copy; 2023 Jobify</p>
+    </footer>
+</body>
+</html>

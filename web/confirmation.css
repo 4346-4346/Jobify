@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: seagreen;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+h1 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: honeydew;
+    font-family: Arial, sans-serif;
+    border-style: hidden;
+    border-radius: 25% 10%;
+    padding: 0px 50px;
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+    min-height: 40vh;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.success-message {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.success-message i {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.success-message h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.success-message p {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+footer {
+    background-color: seagreen;
+    margin-top: auto;
+    color: white;
+}
+

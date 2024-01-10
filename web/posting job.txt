@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Job Posting Form</title>
+</head>
+<body>
+	<h1>Post a Job</h1>
+	<form action="process_job_posting.php" method="POST">
+		<label for="job_title">Job Title:</label>
+		<input type="text" id="job_title" name="job_title"><br><br>
+		<label for="company_name">Company Name:</label>
+		<input type="text" id="company_name" name="company_name"><br><br>
+		<label for="job_location">Job Location:</label>
+		<input type="text" id="job_location" name="job_location"><br><br>
+		<label for="job_description">Job Description:</label><br>
+		<textarea id="job_description" name="job_description" rows="10" cols="50"></textarea><br><br>
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>

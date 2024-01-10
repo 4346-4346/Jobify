@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Employer's Login- Jobify</title>
+    <link rel="stylesheet" href="employers login.css">
+</head>
+
+<body>
+    <header>
+        
+            <h1><img src="images.jpg" alt="logo" height="50" width="70">Jobify</h1>
+        
+    </header>
+    <main>
+    <div class="container">
+        <form class="login-form" action="employersloginservlet" method="post">
+            <h2>Welcome to Jobify</h2><br>
+            <h3>Employer's Login</h3><br><br>
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="email or username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div>
+                <a href="forgetpassword.html">Forgot Password?</a>
+            </div><br>
+            <div class="form-group">Don't have an account?<a
+                    href="SignupEmployers.html">Sign up</a></div>
+            <div class="form-group">
+                <input type="submit" value="Login">
+            </div>
+        </form>
+    </div>
+    </main>    
+    <footer>
+        <p style="color:white">&copy; 2023 Jobify</p>
+    </footer>
+</body>
+
+</html>

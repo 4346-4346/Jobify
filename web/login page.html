@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Job Seekers Login | Jobify</title>
+        <link rel="stylesheet" href="jobseekers login.css">
+        <style>
+            header {
+                background-color: seagreen;
+                text-align: center;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 40px;
+            }
+            h1{
+                position: relative;
+                text-align: center;
+                /*display: flex;*/
+                color: honeydew;
+                font-family: Arial, sans-serif;
+                border-style: hidden;
+                border-radius: 25% 10%;
+                padding: 0px 40px;
+                margin: 0;
+            }
+        </style>    
+    </head>
+    <body>
+        <header>
+            <h1><img src="images.jpg" height="50" width="70">Jobify</h1>
+        </header>
+        <main>
+            <div class="container">
+                <form class="login-form" action="Loginservlet" method="post">
+                    <h2>Welcome to Jobify</h2><br>
+                    <h3>Job Seekers Login</h3>
+                    <div class="form-group">
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username" placeholder="email or username">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password">
+                    </div>
+                    <div class="form-group">
+                        <a href="Jobify-home.html"><input type="submit" value="Login" id="mybtn"></a>
+                    </div>
+                    <div>
+                        <a href="forgetpassword.html">Forgot Password?</a>
+                    </div><br>
+                    <div class="form-group">Don't have an account?<a href="profile.html">Sign up</a></div>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <p style="color: white">&copy; 2023 Jobify</p>
+        </footer>
+    </body>
+
+</html>

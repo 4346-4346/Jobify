@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Post a Job</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="posting job.css">
+        <script>
+            document.addEventListener('DOMContentLoaded',function(){
+                var button=
+                var jobtitle=document.getElementById('title');
+                var cname=document.getElementById('');
+                var joblocation=document.getElementById('');
+                var jobdescription=document.getElementById('');
+                var jobrequirements=document.getElementById('');
+                
+                
+                button.addEventListener('click',function(){
+                    if(cd.equals(null) && exp.equals(null) && cvv.equals(null)){
+                        alert("Fill the fields");
+                    }
+                    else{
+                        
+                    
+                    alert('Your order has been placed');}
+                });
+            });
+        </script>
+</head>
+
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="Jobify-home.html">Home</a></li>
+			</ul>
+		</nav>
+		<div>
+			<h1><img src="images.jpg" height="50" width="70">Jobify</h1>
+		</div>
+	</header>
+	<main>
+		<div class="container">
+			<h2>Post a Job</h2>
+			<form class="posting-form" action="PostJobservlet" method="POST">
+				<div class="form-group">
+					<label for="job_title">Job Title:</label>
+					<input type="text" id="title" name="job title"><br><br>
+				</div>
+				<div class="form-group">
+					<label for="company_name">Company Name:</label>
+					<input type="text" id="name" name="company name"><br><br>
+				</div>
+				<div class="form-group">
+					<label for="job_location">Job Location:</label>
+					<input type="text" id="location" name="job location"><br><br>
+				</div>
+				<div class="form-group">
+					<label for="job_description">Job Description:</label><br>
+					<textarea id="description" name="job description" rows="6" cols="50"></textarea><br><br>
+				</div>
+				<div class="form-group">
+					<label for="job_requirements">Job Requirements:</label><br>
+					<textarea id="requirements" name="job requirements" rows="10" cols="50"></textarea><br><br>
+				</div>
+				<div class="form-group">
+					<input type="submit" value="Post a Job">
+				</div>
+			</form>
+		</div>
+	</main>
+	<footer>
+		<p style="color:white">&copy; 2023 Jobify</p>
+	</footer>
+</body>
+
+</html>

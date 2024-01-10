@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Apply Now</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="applynow.css">
+
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="Jobify-home.html">Home</a></li>
+                </ul>
+            </nav>
+            <div>
+                <h1><img src="images.jpg" height="50" width="70">Jobify</h1>
+            </div>
+        </header>
+
+        <div class="container">
+            <h2>Apply Now</h2>
+            <div class="paragraph">
+                <p>Please fill out the form below to apply for the job.</p>
+            </div>
+            <form action="Applynow" method="post">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="location">Current Location:</label>
+                <input type="text" id="location" name="location" required>
+                <label for="resume">Resume:</label>
+                <input type="file" id="resume" name="resume" required>
+                <label for="cover-letter">Cover Letter:</label>
+                <textarea id="cover-letter" name="cover-letter"></textarea>
+                <input type="submit" value="Apply">
+            </form>
+        </div>
+
+        <footer>
+            <p style="color: white">&copy; 2023 Jobify</p>
+        </footer>
+    </body>
+
+</html>

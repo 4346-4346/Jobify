@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Jobify Profile</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="profile.css">
+    </head>
+
+    <body>
+        <header>
+<!--            <nav>
+                <ul>
+                    <li><a href="Jobify-home.html">Home</a></li>
+                </ul>
+            </nav>-->
+            <div>
+                <h1><img src="images.jpg" height="50" width="70">Jobify</h1>
+            </div>
+        </header>
+        <main>
+            <form action="Signupservlet" method="post">
+                <h2>Create Your Jobify Profile</h2>
+
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password"><br><br>
+
+                <label for="password">Confirm Password:</label>
+                <input type="password" id="confirmpassword" name="confirmpassword"><br><br>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone"><br><br>
+
+                <label for="address">Address:</label>
+                <input type="text" name="address" id="address"><br><br>
+
+                <label for="resume">Upload Your Resume:</label>
+                <input type="file" id="resume" name="resume"><br><br>
+
+                <label for="image">Upload Your Picture:</label>
+                <input type="file" id="image" name="image"><br><br>
+
+                <label for="linkedin">LinkedIn Profile URL:</label>
+                <input type="url" id="linkedin" name="linkedin"><br><br>
+
+                <label for="education">Education:</label>
+                <textarea id="education" name="education"></textarea><br><br>
+
+                <label for="skills">Skills:</label>
+                <textarea id="skills" name="skills"></textarea><br><br>
+
+                <label for="experience">Work Experience:</label>
+                <textarea type="text" id="experience" name="experience"></textarea><br><br>
+
+                <button type="submit">Create Profile</button>
+            </form>
+        </main>
+
+        <footer>
+            <p style="color: white">&copy; 2023 Jobify</p>
+        </footer>
+
+    </body>
+
+</html>
